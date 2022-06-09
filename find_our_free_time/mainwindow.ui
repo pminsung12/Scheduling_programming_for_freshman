@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="title">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>120</y>
+      <width>541</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 72pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>과제 헌터</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::PlainText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="margin">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>590</y>
+      <width>463</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btn_input">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;
+background-color: rgb(212, 148, 128);</string>
+       </property>
+       <property name="text">
+        <string>입력</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_calendar">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;
+background-color: rgb(212, 148, 128);</string>
+       </property>
+       <property name="text">
+        <string>달력 보기</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_RIP">
+       <property name="styleSheet">
+        <string notr="true">font: 75 9pt &quot;G마켓 산스 TTF Bold&quot;;
+background-color: rgb(212, 148, 128);</string>
+       </property>
+       <property name="text">
+        <string>RIP</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="lbl_level">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>20</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>내 학구열 레벨 : </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>290</y>
+      <width>293</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="btn_fin">
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(172, 231, 172);
+font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+       </property>
+       <property name="text">
+        <string>완료</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_later">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;
+background-color: rgb(248, 233, 155);</string>
+       </property>
+       <property name="text">
+        <string>미루기</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_giveup">
+       <property name="styleSheet">
+        <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;
+background-color: rgb(241, 124, 100);</string>
+       </property>
+       <property name="text">
+        <string>포기</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QListWidget" name="listWidget_others">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>390</y>
+      <width>411</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>G마켓 산스 TTF Bold</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;
+background-color: rgb(254, 247, 243);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>오늘도 열심히 과제를 해보아요 !!</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="lbl_first">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>300</y>
+      <width>421</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 19pt &quot;G마켓 산스 TTF Bold&quot;;
+background-color: rgb(251, 240, 230);
+color: rgb(186, 70, 74);</string>
+    </property>
+    <property name="text">
+     <string>1 순 위 과 제</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_curdate">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>690</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>현재 날짜</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="lbl_todaytime">
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>시간</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lbl_posstime">
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>시간</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="0" column="0">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>오늘 공부해야 할 시간: </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+         </property>
+         <property name="text">
+          <string>공부 가능 시간: </string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btn_renew">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>690</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;G마켓 산스 TTF Bold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>새로 고침</string>
+    </property>
+   </widget>
+   <zorder>listWidget_others</zorder>
+   <zorder>title</zorder>
+   <zorder>horizontalLayoutWidget</zorder>
+   <zorder>lbl_level</zorder>
+   <zorder>horizontalLayoutWidget_2</zorder>
+   <zorder>lbl_first</zorder>
+   <zorder>lbl_curdate</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>btn_renew</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
